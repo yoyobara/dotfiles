@@ -1,0 +1,14 @@
+# update PATH
+export PATH="${PATH}:/home/yoyobara/.local/bin"
+
+# aliases
+alias xo='xdg-open'
+alias .='source'
+alias vim='nvim'
+alias httpserver='python3 -m http.server'
+alias rm='rm -i'
+
+# find files that contains something in their filename
+findwith(){
+	find . -iname "*$1*" ;
+}
