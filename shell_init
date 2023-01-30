@@ -12,3 +12,6 @@ alias rm='rm -i'
 findwith(){
 	find . -iname "*$1*" ;
 }
+
+alias cdrobot='cd src/main/java/frc/robot'
+alias cdroot='cd ../../../../../'
