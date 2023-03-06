@@ -15,3 +15,6 @@ findwith(){
 
 alias cdrobot='cd src/main/java/frc/robot'
 alias cdroot='cd ../../../../../'
+
+# openAI key
+export OPENAI_API_KEY='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'
