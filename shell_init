@@ -8,13 +8,23 @@ alias vim='nvim'
 alias httpserver='python3 -m http.server'
 alias rm='rm -i'
 
-# find files that contains something in their filename
-findwith(){
-	find . -iname "*$1*" ;
-}
-
 alias cdrobot='cd src/main/java/frc/robot'
 alias cdroot='cd ../../../../../'
 
 # openAI key
 export OPENAI_API_KEY='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'
+
+###  useful bash shit ###
+
+# find files that contains something in their filename
+findwith(){
+	find . -iname "*$1*" ;
+}
+
+# create directory AND move files to it
+# usage:
+#	mkdirmov <new-dir-name> [files...]
+mkdirmv() {
+	mkdir $1
+	mv "${@:2}" $1
+}
