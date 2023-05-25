@@ -1,5 +1,5 @@
 # update PATH
-export PATH="${PATH}:/home/yoyobara/.local/bin"
+export PATH="${PATH}:/home/yoyobara/.local/bin:/home/yoyobara/scripts"
 
 # aliases
 alias xo='xdg-open'
