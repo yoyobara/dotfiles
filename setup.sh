@@ -8,10 +8,6 @@ echo "shell init copied"
 ln -sf ${ROOT}/.bashrc ${HOME}/
 echo ".bashrc copied"
 
-# ssh
-ln -sf ${ROOT}/.ssh ${HOME}/
-echo ".ssh copied"
-
 # neovim
 ln -sf ${ROOT}/.config/nvim ${HOME}/.config/nvim
 echo "neovim copied"
