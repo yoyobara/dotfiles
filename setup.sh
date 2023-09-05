@@ -7,7 +7,3 @@ echo "shell init copied"
 # bashrc
 ln -sf ${ROOT}/.bashrc ${HOME}/
 echo ".bashrc copied"
-
-# neovim
-ln -sf ${ROOT}/.config/nvim ${HOME}/.config/nvim
-echo "neovim copied"
