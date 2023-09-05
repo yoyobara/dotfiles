@@ -1,17 +1,11 @@
 # update PATH
-export PATH="${PATH}:/home/yoyobara/.local/bin:/home/yoyobara/scripts"
+export PATH="${PATH}:${HOME}/.local/bin:${HOME}/scripts"
 
 # aliases
 alias xo='xdg-open'
 alias .='source'
 alias httpserver='python3 -m http.server'
 alias rm='rm -i'
-
-alias cdrobot='cd src/main/java/frc/robot'
-alias cdroot='cd ../../../../../'
-
-# openAI key
-export OPENAI_API_KEY='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'
 
 ###  useful bash shit ###
 
@@ -26,9 +20,4 @@ findwith(){
 mkdirmv() {
 	mkdir $1
 	mv "${@:2}" $1
-}
-
-# pi ssh (temp)
-rpi_connect() {
-    ssh yoyobara@192.168.1.189
 }
