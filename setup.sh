@@ -8,6 +8,3 @@ echo "shell init linked"
 # bashrc
 ln -sf ${ROOT}/.bashrc ${HOME}/
 echo ".bashrc linked"
-
-# nvim
-ln -sf ${ROOT}/nvim ${HOME}/.config/
