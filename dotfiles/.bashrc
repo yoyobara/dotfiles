@@ -26,4 +26,4 @@ fi
 set -o vi
 
 # genearl shell configuration
-source ~/shell_init
+source ~/.shell_init
