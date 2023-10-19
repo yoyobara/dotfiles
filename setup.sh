@@ -7,3 +7,6 @@ echo "shell init linked"
 # bashrc
 ln -sf ${dotfiles_dir}/.bashrc ${HOME}/
 echo ".bashrc linked"
+
+# nvchad customs
+ln -sf ${dotfiles_dir}/nvchad/custom ${HOME}/.config/nvim/lua/
