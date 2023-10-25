@@ -43,7 +43,10 @@ M.mason = {
         "ruff",
 
 		-- bash
-        "bash-language-server"
+        "bash-language-server",
+
+        -- rust
+        "rust-analyzer"
 	},
 }
 
