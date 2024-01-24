@@ -4,7 +4,6 @@ export PATH="${PATH}:${HOME}/.local/bin:${HOME}/scripts"
 # aliases
 alias xo='xdg-open'
 alias .='source'
-alias httpserver='python3 -m http.server'
 alias rm='rm -i'
 
 ###  useful bash shit ###
@@ -20,4 +19,9 @@ findwith(){
 mkdirmv() {
 	mkdir $1
 	mv "${@:2}" $1
+}
+
+httpserver() {
+    echo "starting file-serving http server at $(hostname -I) port 8000"
+    python3 -m http.server
 }
