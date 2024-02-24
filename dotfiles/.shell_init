@@ -25,3 +25,7 @@ httpserver() {
     echo "starting file-serving http server at $(hostname -I) port 8000"
     python3 -m http.server
 }
+
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
