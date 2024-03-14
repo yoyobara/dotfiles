@@ -6,6 +6,12 @@ alias xo='xdg-open'
 alias .='source'
 alias rm='rm -i'
 
+# ls aliases
+alias ls='ls --color=auto'
+alias la='ls -a'
+alias ll='ls -l'
+alias lla='ls -al'
+
 ###  useful bash shit ###
 
 # find files that contains something in their filename
