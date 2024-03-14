@@ -8,5 +8,6 @@ echo "shell init linked"
 ln -sf ${dotfiles_dir}/.bashrc ${HOME}/
 echo ".bashrc linked"
 
-# nvchad customs
-ln -sf ${dotfiles_dir}/nvchad/custom ${HOME}/.config/nvim/lua/
+# tmux
+ln -sf ${dotfiles_dir}/.tmux.conf ${HOME}/
+echo ".tmux.conf linked"
