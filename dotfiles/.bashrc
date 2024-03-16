@@ -25,5 +25,8 @@ fi
 # VIM SUPPORT
 set -o vi
 
+# case insensitive completion
+bind 'set completion-ignore-case on'
+
 # genearl shell configuration
 source ~/.shell_init
