@@ -1,6 +1,9 @@
 # update PATH
 export PATH="${PATH}:${HOME}/.local/bin:${HOME}/scripts"
 
+# source file of secret environment variables
+[[ -f ".secret_env" ]] && source .secret_env
+
 # aliases
 alias xo='xdg-open'
 alias .='source'
