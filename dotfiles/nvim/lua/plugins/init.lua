@@ -34,4 +34,9 @@ return {
             git = { enable = true },
         },
     },
+
+    {
+        "ThePrimeagen/vim-be-good",
+        lazy=false,
+    },
 }
