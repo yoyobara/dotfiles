@@ -1,4 +1,5 @@
 dotfiles_dir=$(dirname $(realpath $0))/dotfiles
+echo $dotfiles_dir
 
 # shell init
 ln -sf ${dotfiles_dir}/.shell_init ${HOME}/
@@ -13,5 +14,5 @@ ln -sf ${dotfiles_dir}/.tmux.conf ${HOME}/
 echo ".tmux.conf linked"
 
 # neovim
-ln -sf ${dotfiles_dir}/nvim ${HOME}/.config/nvim
+ln -sf ${dotfiles_dir}/nvim ${HOME}/.config/
 echo "neovim config linked"
