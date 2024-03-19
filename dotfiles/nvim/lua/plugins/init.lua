@@ -15,7 +15,8 @@ return {
                 "prettier",
                 "stylua",
                 "pyright",
-                "rust-analyzer"
+                "rust-analyzer",
+                "clangd",
             },
         },
     },
