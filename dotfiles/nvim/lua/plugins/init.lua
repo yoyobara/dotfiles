@@ -17,6 +17,7 @@ return {
                 "pyright",
                 "rust-analyzer",
                 "clangd",
+                "bash-language-server",
             },
         },
     },
