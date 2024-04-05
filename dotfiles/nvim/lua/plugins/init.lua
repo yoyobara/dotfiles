@@ -41,4 +41,7 @@ return {
         "ThePrimeagen/vim-be-good",
         lazy=false,
     },
+    {
+        "mistricky/codesnap.nvim", build = "make"
+    },
 }
