@@ -42,6 +42,8 @@ return {
         lazy=false,
     },
     {
-        "mistricky/codesnap.nvim", build = "make"
+        "mistricky/codesnap.nvim",
+        build = "make",
+        lazy=false,
     },
 }
