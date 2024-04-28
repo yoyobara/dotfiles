@@ -8,6 +8,10 @@ export PATH="${PATH}:${HOME}/.local/bin:${HOME}/scripts"
 alias xo='xdg-open'
 alias .='source'
 alias rm='rm -i'
+alias hack_nasa='cmatrix'
+
+# pacman alias
+alias pacman-remove-orphans='sudo pacman -Rns $(pacman -Qdtq)'
 
 # ls aliases
 alias ls='ls --color=auto'

@@ -45,5 +45,8 @@ return {
         "mistricky/codesnap.nvim",
         build = "make",
         lazy=false,
+        opts = {
+            save_path = "~/Pictures/p.png"
+        }
     },
 }
