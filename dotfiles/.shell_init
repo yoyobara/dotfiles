@@ -39,6 +39,13 @@ httpserver() {
     python3 -m http.server
 }
 
+# powerline stuff ig
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /usr/share/powerline/bindings/$(basename $SHELL)/powerline.sh
+
+# tmux??
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   exec tmux
 fi
