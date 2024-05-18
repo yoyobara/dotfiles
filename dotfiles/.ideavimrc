@@ -1,0 +1,3 @@
+nmap <Tab> <Action>(NextTab)
+set relativenumber
+set number

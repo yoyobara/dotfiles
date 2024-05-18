@@ -7,7 +7,11 @@ local o = vim.opt;
 o.shiftwidth = 4
 o.tabstop = 4
 o.softtabstop = 4
+o.expandtab = true
 
 -- Enable line numbers
 o.number = true
 o.relativenumber = true
+
+-- fold
+o.foldmethod = 'indent'

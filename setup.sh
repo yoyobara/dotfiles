@@ -9,6 +9,10 @@ echo "shell init linked"
 ln -sf ${dotfiles_dir}/.bashrc ${HOME}/
 echo ".bashrc linked"
 
+# ideavimrc
+ln -sf ${dotfiles_dir}/.ideavimrc ${HOME}/
+echo ".ideavimrc linked"
+
 # tmux
 ln -sf ${dotfiles_dir}/.tmux.conf ${HOME}/
 echo ".tmux.conf linked"
