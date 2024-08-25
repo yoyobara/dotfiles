@@ -1,3 +1,5 @@
 nmap <Tab> <Action>(NextTab)
 set relativenumber
 set number
+set clipboard+=unnamed
+set visualbell

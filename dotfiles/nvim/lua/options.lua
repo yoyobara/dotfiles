@@ -12,6 +12,3 @@ o.expandtab = true
 -- Enable line numbers
 o.number = true
 o.relativenumber = true
-
--- fold
-o.foldmethod = 'indent'
