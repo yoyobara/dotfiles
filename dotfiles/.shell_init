@@ -26,6 +26,11 @@ findwith(){
 	find . -iname "*$1*" ;
 }
 
+system_update() {
+    sudo pacman -Syu --noconfirm
+    flatpak update -y
+}
+
 # create directory AND move files to it
 # usage:
 #	mkdirmov <new-dir-name> [files...]
