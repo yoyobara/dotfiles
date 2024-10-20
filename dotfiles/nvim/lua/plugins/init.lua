@@ -18,7 +18,8 @@ return {
                 "rust-analyzer",
                 "clangd",
                 "bash-language-server",
-                "jdtls"
+                "jdtls",
+                "ts_ls"
             },
         },
     },
