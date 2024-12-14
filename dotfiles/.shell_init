@@ -27,8 +27,10 @@ findwith(){
 }
 
 system_update() {
-    sudo pacman -Syu --noconfirm
-    flatpak update -y
+    command -v pacman && sudo pacman -Syu --noconfirm
+    command -v dnf && sudo dnf update -y
+    
+    command -v flatpak && flatpak update -y
 }
 
 # create directory AND move files to it
