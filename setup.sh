@@ -20,3 +20,6 @@ echo ".tmux.conf linked"
 # neovim
 ln -sf ${dotfiles_dir}/nvim ${HOME}/.config/
 echo "neovim config linked"
+
+# i3
+ln -sf ${dotfiles_dir}/i3_config ${HOME}/.config/i3/config
