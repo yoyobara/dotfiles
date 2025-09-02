@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "Kimbie Dark",
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.insertSpaces": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "eslint.format.enable": true,
+    "eslint.ignoreUntitled": true,
+    "eslint.useFlatConfig": true,
+    "editor.formatOnSave": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+}
