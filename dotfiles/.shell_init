@@ -19,6 +19,9 @@ alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -al'
 
+# desktop environment alias
+alias session_type='echo $XDG_SESSION_TYPE'
+
 ###  useful bash shit ###
 
 # find files that contains something in their filename
